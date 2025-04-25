@@ -33,8 +33,8 @@ const Home = () => {
                   Traveling opens the door to creating <span className="highlight">memories</span>
                 </h1>
                 <p>
-                Breathtaking places, heartwarming moments, and stories that live on forever. Every journey is a chance to discover the world and find a little more of yourself along the way.
-                where every journey begins with curiosity and ends with memories that last a lifetime.
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, iste magni in optio soluta accusantium unde dignissimos
+                  exercitationem. In obcaecati ea inventore provident, incidunt officia! Sequi, libero. Doloribus, similique accusantium?
                 </p>
               </div>
             </Col>
