@@ -14,12 +14,14 @@ const router = express.Router();
 
 import {verifyAdmin} from "../utils/verifyToken.js";
 
+// //Create new tour
+// router.post("/", verifyAdmin, createTour);
 //Create new tour
-router.post("/", verifyAdmin, createTour);
+router.post("/", createTour);
 //UPdate tour
-router.put("/:id", verifyAdmin, updateTour);
+router.put("/:id", updateTour);
 //delete tour
-router.delete("/:id", verifyAdmin, deleteTour);
+router.delete("/:id", deleteTour);
 //get single tour
 router.get("/:id", getSingleTour);
 //get all tour
