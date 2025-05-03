@@ -36,8 +36,10 @@ const Testimonials = () => {
     <Slider {...settings}>
       <div className="testimonial py-4 px-3">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit corrupti quibusdam debitis voluptatum voluptas sint, repellat iusto minus
-          deserunt recusandae quis pariatur animi, obcaecati nemo soluta assumenda saepe id cupiditate.
+        The entire trip was perfectly organized from start to finish.
+Our guide knew all the hidden gems and local stories.
+Every day felt like a new adventure waiting to unfold.
+I came back with memories I’ll cherish forever!
         </p>
         <div className="d-flex align-items-center gap-4 mt-3">
           <img src={ava01} className="w-25 h-25 rounded-2" alt="" />
@@ -49,8 +51,10 @@ const Testimonials = () => {
       </div>
       <div className="testimonial py-4 px-3">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit corrupti quibusdam debitis voluptatum voluptas sint, repellat iusto minus
-          deserunt recusandae quis pariatur animi, obcaecati nemo soluta assumenda saepe id cupiditate.
+        Traveling with kids can be stressful, but this tour made it easy.
+From comfortable stays to flexible plans, everything was smooth.
+The guides were friendly, patient, and super helpful.
+It was a family vacation we’ll never forget!
         </p>
         <div className="d-flex align-items-center gap-4 mt-3">
           <img src={ava02} className="w-25 h-25 rounded-2" alt="" />
@@ -62,8 +66,10 @@ const Testimonials = () => {
       </div>
       <div className="testimonial py-4 px-3">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit corrupti quibusdam debitis voluptatum voluptas sint, repellat iusto minus
-          deserunt recusandae quis pariatur animi, obcaecati nemo soluta assumenda saepe id cupiditate.
+        I loved how customizable everything was—truly made for me.
+They adjusted the itinerary to fit my style and pace.
+It felt personal, not just another packaged tour.
+Highly recommend for solo or personalized travel!
         </p>
         <div className="d-flex align-items-center gap-4 mt-3">
           <img src={ava03} className="w-25 h-25 rounded-2" alt="" />
@@ -75,8 +81,10 @@ const Testimonials = () => {
       </div>
       <div className="testimonial py-4 px-3">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit corrupti quibusdam debitis voluptatum voluptas sint, repellat iusto minus
-          deserunt recusandae quis pariatur animi, obcaecati nemo soluta assumenda saepe id cupiditate.
+        From the airport pickup to the final day, it was all top-notch.
+Luxury hotels, fine dining, and hassle-free travel.
+The attention to detail really stood out throughout.
+Definitely worth every penny for a premium experience.
         </p>
         <div className="d-flex align-items-center gap-4 mt-3">
           <img src={ava01} className="w-25 h-25 rounded-2" alt="" />

@@ -10,17 +10,17 @@ const servicesData = [
   {
     imgUrl: weatherImg,
     title: "Calculate Weather",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    desc: "Stay ahead—get the latest weather updates for your destination.",
   },
   {
     imgUrl: guideImg,
     title: "Best Tour Guide",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    desc: "Discover hidden gems with our top-rated tour guides.",
   },
   {
     imgUrl: customizationImg,
     title: "Customization",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    desc: "From destinations to dates—your journey, your rules.",
   },
 ];
 const ServiceList = () => {

@@ -29,12 +29,15 @@ const Home = () => {
                   <Subtitle subtitle={"Know Before You Go"} />
                   <img src={worldImg} alt="" />
                 </div>
-                <h1>
-                  Traveling opens the door to creating <span className="highlight">memories</span>
-                </h1>
+                <h2>
+                  {/* Traveling opens the door to creating <span className="highlight">memories</span> */}
+                  Ready for your next adventure? <br />
+                  Let us handle the details while you <span className="color: #ee6e6e">enjoy the journey</span>
+                </h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, iste magni in optio soluta accusantium unde dignissimos
-                  exercitationem. In obcaecati ea inventore provident, incidunt officia! Sequi, libero. Doloribus, similique accusantium?
+                  Explore breathtaking destinations around the world.<br />
+                  Plan and manage your tours with ease.               <br />
+                  Adventure begins here—start your journey today!<br />
                 </p>
               </div>
             </Col>
@@ -95,8 +98,8 @@ const Home = () => {
                   With our all exerience <br /> we will serve you
                 </h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-                  Architecto modi, aspernatur facere veritatis quidem similique et distinctio eligendi.
+                the perfect blend of comfort and adventure.<br />
+                Because your journey deserves the best.
                 </p>
               </div>
               <div className="counter__wrapper d-flex align-items-center gap-5">
