@@ -31,9 +31,9 @@ const connect = async () => {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
-    console.log("Connected");
+    console.log("MongoDB database Connected");
   } catch (error) {
-    console.log("Failed");
+    console.log("mongoDB Failed");
   }
 };
 

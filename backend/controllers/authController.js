@@ -51,11 +51,17 @@ export const login = async (req, res) => {
     res
       .cookie("accessToken", token, {
         httpOnly: true,
-        expires: new Date(Date.now() + 900000), // 900000 milliseconds = 15 minutes
+       //expires: new Date(Date.now() + 900000), // 900000 milliseconds = 15 minutes
+        expires: token.expiresIn,
       })
       .status(200)
-      .json({token, data: {...rest}, role});
-  } catch (error) {
+      //.json({token, data: {...rest}, role});
+      .json({
+        success: true,
+        message: "successfully login",
+        data: { ...rest },
+      });
+    } catch (error) {
     res.status(500).json({success: false, message: "Failed to login"});
   }
 };

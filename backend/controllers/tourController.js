@@ -88,7 +88,7 @@ export const getFeaturedTours = async (req, res) => {
     res.status(404).json({success: false, message: "Not found"});
   }
 };
-
+ 
 //get tour count
 export const getTourCount = async (req, res) => {
   try {
