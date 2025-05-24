@@ -10,7 +10,7 @@ export const createBooking = async (req, res) => {
     res.status(500).json({success: false, message: "Internal server error"});
   }
 };
-
+ 
 //get single booking
 export const getBooking = async (req, res) => {
   const id = req.params.id;

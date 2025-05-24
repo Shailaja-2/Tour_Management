@@ -55,12 +55,17 @@ export const login = async (req, res) => {
         expires: token.expiresIn,
       })
       .status(200)
-      //.json({token, data: {...rest}, role});
+      
       .json({
-        success: true,
-        message: "successfully login",
-        data: { ...rest },
-      });
+        token,
+        data: {...rest},
+         role,
+        });
+      // .json({
+      //   success: true,
+      //   message: "successfully login",
+      //   data: { ...rest },
+      // });
     } catch (error) {
     res.status(500).json({success: false, message: "Failed to login"});
   }
