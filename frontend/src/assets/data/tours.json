@@ -238,5 +238,53 @@
     "reviews": [],
     "photo": "/tour-images/tour-img01.jpg",
     "featured": false
+  },
+  {
+    "title": "Charminar",
+    "city": "Hyderabad",
+    "address": "Charminar Rd, Ghansi Bazaar, Hyderabad",
+    "distance": 150,
+    "price": 80,
+    "maxGroupSize": 15,
+    "desc": "A historic monument and mosque built in 1591, Charminar is a global icon of Hyderabad.",
+    "reviews": [],
+    "photo": "/tour-images/tour-img10.jpg",
+    "featured": true
+  },
+  {
+    "title": "Golconda Fort",
+    "city": "Hyderabad",
+    "address": "Khair Complex, Ibrahim Bagh, Hyderabad",
+    "distance": 300,
+    "price": 100,
+    "maxGroupSize": 20,
+    "desc": "A majestic fortress built in the 13th century, famous for its acoustic architecture and scenic views.",
+    "reviews": [],
+    "photo": "/tour-images/tour-img11.jpg",
+    "featured": false
+  },
+  {
+    "title": "Hussain Sagar Lake",
+    "city": "Hyderabad",
+    "address": "Tank Bund Rd, Hyderabad",
+    "distance": 200,
+    "price": 60,
+    "maxGroupSize": 12,
+    "desc": "A heart-shaped lake famous for the Buddha statue situated on an island at its center.",
+    "reviews": [],
+    "photo": "/tour-images/tour-img12.jpg",
+    "featured": false
+  },
+  {
+    "title": "Ramoji Film City",
+    "city": "Hyderabad",
+    "address": "Anaspur Village, Hayathnagar Mandal, Hyderabad",
+    "distance": 500,
+    "price": 150,
+    "maxGroupSize": 25,
+    "desc": "One of the largest film studio complexes in the world, offering studio tours and entertainment activities.",
+    "reviews": [],
+    "photo": "/tour-images/tour-img.13jpg",
+    "featured": true
   }
 ]

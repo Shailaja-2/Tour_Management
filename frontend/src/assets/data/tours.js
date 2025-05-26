@@ -5,6 +5,10 @@ import tourImg04 from "../images/tour-img04.jpg";
 import tourImg05 from "../images/tour-img05.jpg";
 import tourImg06 from "../images/tour-img06.jpg";
 import tourImg07 from "../images/tour-img07.jpg";
+import tourImg08 from "../images/tour-img08.jpg";
+import tourImg09 from "../images/tour-img09.jpg";
+import tourImg10 from "../images/tour-img10.jpg";
+import tourImg11 from "../images/tour-img11.jpg";
 
 const tours = [
   {
@@ -153,6 +157,62 @@ const tours = [
     photo: tourImg03,
     featured: false,
   },
+  {
+  id: "09",
+  title: "Charminar",
+  city: "Hyderabad",
+  distance: 150,
+  address: "Charminar Rd, Ghansi Bazaar, Hyderabad",
+  price: 80,
+  maxGroupSize: 15,
+  desc: "A historic monument and mosque built in 1591, Charminar is a global icon of Hyderabad.",
+  reviews: [],
+  avgRating: 4.6,
+  photo: tourImg08,
+  featured: true,
+},
+{
+  id: "10",
+  title: "Golconda Fort",
+  city: "Hyderabad",
+  distance: 300,
+  address: "Khair Complex, Ibrahim Bagh, Hyderabad",
+  price: 100,
+  maxGroupSize: 20,
+  desc: "A majestic fortress built in the 13th century, famous for its acoustic architecture and scenic views.",
+  reviews: [],
+  avgRating: 4.4,
+  photo: tourImg09,
+  featured: false,
+},
+{
+  id: "11",
+  title: "Hussain Sagar Lake",
+  city: "Hyderabad",
+  distance: 200,
+  address: "Tank Bund Rd, Hyderabad",
+  price: 60,
+  maxGroupSize: 12,
+  desc: "A heart-shaped lake famous for the Buddha statue situated on an island at its center.",
+  reviews: [],
+  avgRating: 4.3,
+  photo: tourImg10,
+  featured: false,
+},
+{
+  id: "12",
+  title: "Ramoji Film City",
+  city: "Hyderabad",
+  distance: 500,
+  address: "Anaspur Village, Hayathnagar Mandal, Hyderabad",
+  price: 150,
+  maxGroupSize: 25,
+  desc: "One of the largest film studio complexes in the world, offering studio tours and entertainment activities.",
+  reviews: [],
+  avgRating: 4.7,
+  photo: tourImg11,
+  featured: true,
+},
 ];
 
 export default tours;
