@@ -1,11 +1,13 @@
 import { createContext, useEffect, useReducer } from "react";
 
 const initial_state = {
-  user: null,
+  user: localStorage.getItem("user") !== undefined 
+  ? JSON.parse(localStorage.getItem("user"))
+  :null,
   loading: false,
   error: null,
 };
-
+ 
 export const AuthContext = createContext(initial_state);
 
 const AuthReducer = (state, action) => {
@@ -48,26 +50,38 @@ const AuthReducer = (state, action) => {
 export const AuthContextProvider = ({ children }) => {
   const [state, dispatch] = useReducer(AuthReducer, initial_state);
 
-  // Set user after localStorage is available (only on client)
-  useEffect(() => {
-    const storedUser = localStorage.getItem("user");
-    if (storedUser) {
-      try {
-        dispatch({ type: "LOGIN_SUCCESS", payload: JSON.parse(storedUser) });
-      } catch (e) {
-        console.error("Failed to parse user JSON:", e);
-        localStorage.removeItem("user"); // corrupt data, remove it
-      }
-    }
-  }, []);
 
-  useEffect(() => {
-    if (state.user) {
-      localStorage.setItem("user", JSON.stringify(state.user));
-    } else {
-      localStorage.removeItem("user");
-    }
-  }, [state.user]);
+useEffect(()=>{
+  localStorage.setItem("user", JSON.stringify(state.user));
+}, [state.user]);
+
+
+
+  // // Set user after localStorage is available (only on client)
+  // useEffect(() => {
+  //   const storedUser = localStorage.getItem("user");
+  //   if (storedUser) {
+  //     try {
+  //       dispatch({ type: "LOGIN_SUCCESS", payload: JSON.parse(storedUser) });
+  //     } catch (e) {
+  //       console.error("Failed to parse user JSON:", e);
+  //       localStorage.removeItem("user"); // corrupt data, remove it
+  //     }
+  //   }
+  // }, []);
+
+  // useEffect(() => {
+  //   if (state.user) {
+  //     localStorage.setItem("user", JSON.stringify(state.user));
+  //   } else {
+  //     localStorage.removeItem("user");
+  //   }
+  // }, [state.user]);
+
+
+
+
+
 
   return (
     <AuthContext.Provider
