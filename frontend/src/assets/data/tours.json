@@ -92,7 +92,7 @@
     "maxGroupSize": 8,
     "desc": "this is the description",
     "reviews": [],
-    "photo": "/tour-images/tour-img03.jpg",
+    "photo": "/tour-images/tour-img13.jpg",
     "featured": true
   },
   {
@@ -106,7 +106,7 @@
     "reviews": [],
     "photo": "/tour-images/tour-img08.jpg",
     "featured": false
-  },
+  }, 
   {
     "title": "Cox's Bazar Sea Beach",
     "city": "Chittagong",
@@ -128,7 +128,7 @@
     "maxGroupSize": 10,
     "desc": "Experience the breathtaking beauty of waterfalls in Chiang Mai.",
     "reviews": [],
-    "photo": "/tour-images/tour-img01.jpg",
+    "photo": "/tour-images/tour-img14.jpg",
     "featured": true
   },
   {
@@ -152,7 +152,7 @@
     "maxGroupSize": 5,
     "desc": "Explore the underwater world of Koh Samui.",
     "reviews": [],
-    "photo": "/tour-images/tour-img03.jpg",
+    "photo": "/tour-images/tour-img15.jpg",
     "featured": true
   },
   {
@@ -176,7 +176,7 @@
     "maxGroupSize": 8,
     "desc": "Learn how to cook delicious Thai dishes with local chefs in Chiang Mai.",
     "reviews": [],
-    "photo": "/tour-images/tour-img05.jpg",
+    "photo": "/tour-images/tour-img16.jpg",
     "featured": true
   },
   {
@@ -188,7 +188,7 @@
     "maxGroupSize": 10,
     "desc": "Spend a day at an elephant sanctuary in Phuket and learn about elephant conservation.",
     "reviews": [],
-    "photo": "/tour-images/tour-img06.jpg",
+    "photo": "/tour-images/tour-img13.jpg",
     "featured": false
   },
   {
@@ -200,7 +200,7 @@
     "maxGroupSize": 12,
     "desc": "Explore the stunning islands around Krabi.",
     "reviews": [],
-    "photo": "/tour-images/tour-img07.jpg",
+    "photo": "/tour-images/tour-img15.jpg",
     "featured": true
   },
   {
@@ -248,7 +248,7 @@
     "maxGroupSize": 15,
     "desc": "A historic monument and mosque built in 1591, Charminar is a global icon of Hyderabad.",
     "reviews": [],
-    "photo": "/tour-images/tour-img10.jpg",
+    "photo": "/tour-images/tour-img12.jpg",
     "featured": true
   },
   {
@@ -260,7 +260,7 @@
     "maxGroupSize": 20,
     "desc": "A majestic fortress built in the 13th century, famous for its acoustic architecture and scenic views.",
     "reviews": [],
-    "photo": "/tour-images/tour-img11.jpg",
+    "photo": "/tour-images/tour-img17.jpg",
     "featured": false
   },
   {
@@ -272,7 +272,7 @@
     "maxGroupSize": 12,
     "desc": "A heart-shaped lake famous for the Buddha statue situated on an island at its center.",
     "reviews": [],
-    "photo": "/tour-images/tour-img12.jpg",
+    "photo": "/tour-images/tour-img10.jpg",
     "featured": false
   },
   {
@@ -284,7 +284,7 @@
     "maxGroupSize": 25,
     "desc": "One of the largest film studio complexes in the world, offering studio tours and entertainment activities.",
     "reviews": [],
-    "photo": "/tour-images/tour-img.13jpg",
+    "photo": "/tour-images/tour-img11.jpg",
     "featured": true
   }
 ]

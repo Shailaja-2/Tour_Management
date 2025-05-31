@@ -9,6 +9,12 @@ import tourImg08 from "../images/tour-img08.jpg";
 import tourImg09 from "../images/tour-img09.jpg";
 import tourImg10 from "../images/tour-img10.jpg";
 import tourImg11 from "../images/tour-img11.jpg";
+import tourImg12 from "../images/tour-img12.jpg";
+import tourImg13 from "../images/tour-img13.jpg";
+import tourImg14 from "../images/tour-img14.jpg";
+import tourImg15 from "../images/tour-img15.jpg";
+import tourImg16 from "../images/tour-img16.jpg";
+import tourImg17 from "../images/tour-img17.jpg";
 
 const tours = [
   {
@@ -33,7 +39,7 @@ const tours = [
     avgRating: 4.5,
     photo: tourImg01,
     featured: true,
-  },
+  }, 
   {
     id: "02",
     title: "Bali, Indonesia",
@@ -154,7 +160,7 @@ const tours = [
     desc: "this is the description",
     reviews: [],
     avgRating: 4.5,
-    photo: tourImg03,
+    photo: tourImg13,
     featured: false,
   },
   {
@@ -168,7 +174,7 @@ const tours = [
   desc: "A historic monument and mosque built in 1591, Charminar is a global icon of Hyderabad.",
   reviews: [],
   avgRating: 4.6,
-  photo: tourImg08,
+  photo: tourImg12,
   featured: true,
 },
 {
@@ -182,7 +188,7 @@ const tours = [
   desc: "A majestic fortress built in the 13th century, famous for its acoustic architecture and scenic views.",
   reviews: [],
   avgRating: 4.4,
-  photo: tourImg09,
+  photo: tourImg17,
   featured: false,
 },
 {
@@ -199,20 +205,92 @@ const tours = [
   photo: tourImg10,
   featured: false,
 },
+// {
+//   id: "12",
+//   title: "Ramoji Film City",
+//   city: "Hyderabad",
+//   distance: 500,
+//   address: "Anaspur Village, Hayathnagar Mandal, Hyderabad",
+//   price: 150,
+//   maxGroupSize: 25,
+//   desc: "One of the largest film studio complexes in the world, offering studio tours and entertainment activities.",
+//   reviews: [],
+//   avgRating: 4.7,
+//   photo: tourImg11,
+//   featured: true,
+// },
+
 {
-  id: "12",
-  title: "Ramoji Film City",
-  city: "Hyderabad",
-  distance: 500,
-  address: "Anaspur Village, Hayathnagar Mandal, Hyderabad",
-  price: 150,
-  maxGroupSize: 25,
-  desc: "One of the largest film studio complexes in the world, offering studio tours and entertainment activities.",
+  id: "13",
+  title: "Bike Tour, Thailand",
+  city: "Pattaya",
+  distance: 200,
+  address: "Somewhere in Thailand",
+  price: 70,
+  maxGroupSize: 15,
+  desc: "Discover the hidden gems of Pattaya on a bike tour.",
   reviews: [],
-  avgRating: 4.7,
-  photo: tourImg11,
+  avgRating: 0,
+  photo: tourImg08,
+  featured: false,
+},
+{
+  id: "14",
+  title: "Nightlife Tour, Thailand",
+  city: "Bangkok",
+  distance: 30,
+  address: "Somewhere in Thailand",
+  price: 40,
+  maxGroupSize: 20,
+  desc: "Experience the vibrant nightlife of Bangkok with a local guide.",
+  reviews: [],
+  avgRating: 0,
+  photo: tourImg09,
   featured: true,
 },
+{
+  id: "15",
+  title: "Amazing Waterfalls, Thailand",
+  city: "Chiang Mai",
+  distance: 800,
+  address: "Somewhere in Thailand",
+  price: 120,
+  maxGroupSize: 10,
+  desc: "Experience the breathtaking beauty of waterfalls in Chiang Mai.",
+  reviews: [],
+  avgRating: 0,
+  photo: tourImg14,
+  featured: true,
+},
+{
+  id: "16",
+  title: "Diving Adventure, Thailand",
+  city: "Koh Samui",
+  distance: 300,
+  address: "Somewhere in Thailand",
+  price: 200,
+  maxGroupSize: 5,
+  desc: "Explore the underwater world of Koh Samui.",
+  reviews: [],
+  avgRating: 0,
+  photo: tourImg15,
+  featured: true,
+},
+{
+  id: "17",
+  title: "Thai Cooking Class, Thailand",
+  city: "Chiang Mai",
+  distance: 700,
+  address: "Somewhere in Thailand",
+  price: 80,
+  maxGroupSize: 8,
+  desc: "Learn how to cook delicious Thai dishes with local chefs in Chiang Mai.",
+  reviews: [],
+  avgRating: 0,
+  photo: tourImg16,
+  featured: true,
+}
+
 ];
 
 export default tours;
