@@ -15,6 +15,7 @@ import tourImg14 from "../images/tour-img14.jpg";
 import tourImg15 from "../images/tour-img15.jpg";
 import tourImg16 from "../images/tour-img16.jpg";
 import tourImg17 from "../images/tour-img17.jpg";
+import tourImg18 from "../images/tour-img18.jpg";
 
 const tours = [
   {
@@ -205,20 +206,20 @@ const tours = [
   photo: tourImg10,
   featured: false,
 },
-// {
-//   id: "12",
-//   title: "Ramoji Film City",
-//   city: "Hyderabad",
-//   distance: 500,
-//   address: "Anaspur Village, Hayathnagar Mandal, Hyderabad",
-//   price: 150,
-//   maxGroupSize: 25,
-//   desc: "One of the largest film studio complexes in the world, offering studio tours and entertainment activities.",
-//   reviews: [],
-//   avgRating: 4.7,
-//   photo: tourImg11,
-//   featured: true,
-// },
+{
+  id: "12",
+  title: "Ramoji Film City",
+  city: "Hyderabad",
+  distance: 500,
+  address: "Anaspur Village, Hayathnagar Mandal, Hyderabad",
+  price: 150,
+  maxGroupSize: 25,
+  desc: "One of the largest film studio complexes in the world, offering studio tours and entertainment activities.",
+  reviews: [],
+  avgRating: 4.7,
+  photo: tourImg11,
+  featured: true,
+},
 
 {
   id: "13",
