@@ -6,8 +6,8 @@ import jwt from "jsonwebtoken";
 export const register = async (req, res) => {
   try {
     //hashing password
-    const salt = bcrypt.genSaltSync(10);
-    const hash = bcrypt.hashSync(req.body.password, salt);
+    const salt =  bcrypt.genSaltSync(10);
+    const hash =  bcrypt.hashSync(req.body.password, salt);
 
     const newUser = new User({
       username: req.body.username,
@@ -18,7 +18,7 @@ export const register = async (req, res) => {
     await newUser.save();
     res.status(200).json({success: true, message: "Successfully created"});
   } catch (error) {
-    res.status(500).json({success: false, message: "Failed to create. Try again"});
+    res.status(500).json({success: false, message: "Successfully created"});
   }
 };
 
@@ -44,7 +44,7 @@ export const login = async (req, res) => {
 
     // create jwt token
     const token = jwt.sign({id: user._id, role: user.role}, process.env.JWT_SECRET_KEY, {
-      expiresIn: "30d",
+      expiresIn: "100d",
     });
 
     //set token in the browser cookies and send the response to the client
@@ -70,3 +70,4 @@ export const login = async (req, res) => {
     res.status(500).json({success: false, message: "Failed to login"});
   }
 };
+ 
