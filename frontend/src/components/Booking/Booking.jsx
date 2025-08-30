@@ -47,8 +47,8 @@ const Booking = ({tour, avgRating}) => {
       });
       const result = await res.json();
       if (!res.ok) {
-        //return alert(result.message);
-        return alert("Successfully Booked");
+        return alert(result.message || "Booking failed, please try again.");
+        //return alert("Successfully Booked");
       }
       navigate("/thank-you");
     } catch (err) {
