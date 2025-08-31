@@ -15,7 +15,7 @@
     "react-scripts": "^5.0.1",
     "react-slick": "^0.29.0",
     "reactstrap": "^9.2.3",
-    "remix-icon": "^2.5.0",
+    "remixicon": "^2.5.0",
     "rm": "^0.1.8",
     "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
