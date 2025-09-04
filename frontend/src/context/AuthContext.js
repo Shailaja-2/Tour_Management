@@ -1,12 +1,30 @@
 import { createContext, useEffect, useReducer } from "react";
 
+// const initial_state = {
+//   user: localStorage.getItem("user") !== undefined 
+//   ? JSON.parse(localStorage.getItem("user"))
+//   :null,
+//   loading: false,
+//   error: null,
+// };
+
+// ---- Safe LocalStorage Initialization ----
+let parsedUser = null;
+try {
+  const storedUser = localStorage.getItem("user");
+  parsedUser = storedUser ? JSON.parse(storedUser) : null;
+} catch (err) {
+  console.error("Failed to parse user JSON from localStorage:", err);
+  localStorage.removeItem("user"); // cleanup if bad data
+}
+
+// ---- Initial State ----
 const initial_state = {
-  user: localStorage.getItem("user") !== undefined 
-  ? JSON.parse(localStorage.getItem("user"))
-  :null,
+  user: parsedUser,
   loading: false,
   error: null,
 };
+
  
 export const AuthContext = createContext(initial_state);
 

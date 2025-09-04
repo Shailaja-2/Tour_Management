@@ -13,10 +13,21 @@ import bookingRoute from "./routes/bookings.js";
 dotenv.config();
 const app = express();
 const port = process.env.PORT || 8000;
+// const corsOptions = {
+//   origin: true,
+//   credentials: true,
+// };
+
+// ✅ Setup CORS before routes
 const corsOptions = {
-  origin: true,
+  origin: "*", // for testing; change to frontend URL in production
   credentials: true,
 };
+app.use(cors(corsOptions));
+
+// Middleware
+app.use(express.json());
+app.use(cookieParser());
 
 //for testing
 app.get("/", (req, res) => {
